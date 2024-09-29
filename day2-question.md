@@ -73,7 +73,6 @@ They are needed to ensure that browsers interpret the content correctly and to d
 
 Meta tags are HTML elements that provide metadata about the HTML document. They are placed in the <head> section of an HTML page. Meta tags are not displayed on the page but are machine parsable.
 
-
 7. What is the best way to add images to a website?
 
 The best way to add images to a website involves several best practices:

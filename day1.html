@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple Images and Form</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 20px;
+      }
+      h2 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+      img {
+        max-width: 100px;
+        height: auto;
+      }
+      form {
+        margin-top: 20px;
+      }
+      
+      input[type="text"],
+      input[type="password"] {
+        width: 200px;
+        padding: 5px;
+        margin-bottom: 10px;
+      }
+    
+      .video-placeholder {
+        width: 200px;
+        height: 100px;
+        background-color: #ddd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+      .html-entities {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>ADDED IMAGE VIA LOCAL STORAGE</h2>
+    <img
+      src="https://imgs.search.brave.com/fjUqUIF-BLBSKPIA5vY1kEZVSl4q3ikfeJuJs-71xls/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNDk1/ODc4MDkyL3Bob3Rv/L3JlZC1hcHBsZS5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/TTJuZEZJMXYyZXJK/TTE4cTFDZDFRQ004/anFCbFJLTGMxbkxF/OUJOcC1FWT0"
+      alt="Red apple"
+    />
+
+    <h2>ADDED IMAGE VIA CDN</h2>
+    <img src="https://imgs.search.brave.com/fjUqUIF-BLBSKPIA5vY1kEZVSl4q3ikfeJuJs-71xls/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNDk1/ODc4MDkyL3Bob3Rv/L3JlZC1hcHBsZS5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/TTJuZEZJMXYyZXJK/TTE4cTFDZDFRQ004/anFCbFJLTGMxbkxF/OUJOcC1FWT0" alt="Red apple" />
+
+    <h2>ADDED VIDEO VIA CDN</h2>
+
+        <video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4" class="video-placeholder"></video>
+
+    <h2>CREATE A BASIC FORM</h2>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h2>HTML ENTRIES</h2>
+    <div class="html-entities">
+      <p>- copyright: &copy;</p>
+      <p>- trademark: &reg;</p>
+      <p>- ampersand: &amp;</p>
+    </div>
+  </body>
+</html>
