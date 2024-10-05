@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #000;
+        }
+
+        .chat-container {
+            width: 100%;
+            max-width: 500px;
+            background-color: #000;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .chat-header {
+            background-color: #2d3e50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .chat-messages {
+            padding: 20px;
+            background-color: #000;
+            min-height: 400px;
+            background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png");
+        }
+
+        .message {
+            margin-bottom: 15px;
+           
+           
+        }
+
+        .message-sent {
+            float: none;
+        }
+
+        .message-received {
+            float: none;
+        }
+
+        .message-content {
+            padding: 12px 20px;
+            border-radius: 6px;
+            display: inline-block;
+            font-size: 14px;
+            line-height: 1.4;
+            width: 90%;
+        }
+
+        .message-sent .message-content {
+            background-color: #47a3f3;
+            color: white;
+        }
+
+        .message-received .message-content {
+            background-color: #52606d;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            Rahul
+        </div>
+        <div class="chat-messages">
+            <div class="message message-sent">
+                <div class="message-content">
+                    Hello Rahul, how are you?
+                </div>
+            </div>
+            <div class="message message-received">
+                <div class="message-content">
+                    Hi Varakumar, I am good. How about you?
+                </div>            </div>
+            <div class="message message-sent">
+                <div class="message-content">
+                    I'm fine. I published my website recently
+                </div>
+            </div>
+            <div class="message message-received">
+                <div class="message-content">
+                    Oh great Varakumar! Can you send me the URL?
+                </div>
+            </div>
+            <div class="message message-sent">
+                <div class="message-content">
+                    https://varakumar.ccbp.tech
+                </div>
+            </div>
+            <div class="message message-received">
+                <div class="message-content">
+                    Awesome Varakumar, where did you learn?
+                </div>
+            </div>
+            <div class="message message-sent">
+                <div class="message-content">
+                    NxtWave CCBP 4.0 Program
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
